@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  align-items: center;
+  ;
+}
+
+img {
+  width: 7%;
+}
+
+.nav a{
+  color: wheat;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body {
+  background-color: rgb(236, 234, 234);
+}
+main {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.container1, .container2 {
+  margin: 15px;
+}
+
+
+button {
+  background-color: rgb(101, 153, 22);
+  color: white;
+  padding: 10px;
+  border: none;
+  float: right;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
