@@ -1,0 +1,12 @@
+td {
+  width: 120px;
+  text-align: center;
+}
+th {
+  background-color: coral;
+  text-align: center;
+}
+
+.column{
+  background-color: aqua;
+}

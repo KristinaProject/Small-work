@@ -1,0 +1,85 @@
+.mobile {
+  display: none;
+
+}
+
+table.desktop td{
+  background-color: lightcyan;
+  border: 2px solid grey;
+  padding: 10px 15px;
+  box-shadow: inset 0px 0px 20px grey;
+}
+
+.desktop {
+  margin: 45px;
+
+}
+
+.desktop caption {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .image-container {
+  display: none;
+}
+
+header{
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div ul li{
+  display: inline;
+  padding: 10px 10px;
+  background-color: lightpink;
+  border-radius: 20%;
+  margin: 10px 10px;
+  cursor: pointer;
+  justify-content: right;
+}
+
+.logo {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+  .desktop {
+    display:none;
+  }
+
+  .mobile {
+    display: block;
+    margin: 45px;
+
+  }
+  table.mobile td {
+    background-color: lightcyan;
+    border: 2px solid grey;
+    padding: 10px 15px;
+    box-shadow: inset 0px 0px 20px grey;
+
+  }
+
+  .mobile caption {
+    font-family: cursive;
+  }
+
+  .meniu {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .image-container .meniu-img {
+    display: block;
+    
+  }
+}
+

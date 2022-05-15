@@ -1,0 +1,70 @@
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 400px;
+  background-color: white;
+  margin: 100px auto;
+  padding: 80px 100px;
+  border-radius: 20px;
+}
+
+.container * {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first input {
+  display: block;
+  width: auto;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+textarea {
+  height: 100px; 
+  padding: 15px 15px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 20px;
+}
+
+fieldset {
+  margin: 30px auto;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(111, 224, 187);
+  color: white;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formos</title>
+    <link rel="stylesheet" href="forma.css" />
+  </head>
+  <body>
+    <form action="/forma.html" method="post">
+      <h1>Payment form</h1>
+      <p>Required fiels are followed by <abbr title="Required"> *</abbr>.</p>
+      <h2>Contact information</h2>
+      <div class="fielset">
+        <fieldset>
+          <legend>Title</legend>
+          <input type="radio" id="mister" name="mister">
+          <label for="mister">Mister</label><br>
+          <input type="radio" id="miss" name="miss">
+          <label for="miss">Miss</label>
+        </fieldset>
+      </div>
+      <div class="all">
+        <div class="name-container">
+          <label for="name">Name:<abbr title="Required"> *</abbr></label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="email-container">
+            <label for="email">E-mail:<abbr title="Required"> *</abbr></label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="pwd-container">
+          <label for="password">Password<abbr title="Required"> *</abbr></label>
+          <input type="password" id="password" name="password">
+        </div>
+        <h2>Payment information</h2>
+        <div class="card-type-container">
+          <label for="card-type">Card type</label>
+          <select>
+            <option>Visa</option>
+            <option>Mastercard</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="card-name-container">
+          <label for="card-number">Card number: <abbr title="Required"> *</abbr></label>
+          <input type="number" id="card-number" name="card-number">
+        </div>
+        <div class="date-container">
+          <label for="date">Expiration date:<abbr title="Required"> *</abbr></label>
+          <input type="month" id="date" name="date">
+        </div>
+        <p><i>formatted as mm/yy</i></p>
+      </div>
+      <div class="button">
+        <input class="button-type" type="button" value="Validate the payment">
+      </div>
+  </form>
+  </body>
+</html>
