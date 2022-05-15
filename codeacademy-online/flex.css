@@ -44,9 +44,18 @@ button {
   padding: 10px;
   border: none;
   float: right;
+  cursor: pointer;
 }
+
 
 footer {
   text-align: center;
   margin: 10px;
+}
+
+
+.container2 img {
+  width: 35%;
+  float: left;
+  padding: 10px;
 }
