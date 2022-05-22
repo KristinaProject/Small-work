@@ -101,5 +101,83 @@
 
 // console.log(`Skaicius ${skaicius} pakeltas kvadratu yr ${kvadratu(skaicius)}`);
 
+//////
+
+//Pasirašykite variable isLegalAge, kurį priskirkite true arba false. 
+//Console.log'e atvaizduokite šį variable. Sukurkite antrą console.log, kuriame atvaizduokite šį variable su toString() metodu. 
+//Turėtų skirtis spalva teksto.
+
+// let isLegalAge = true;
+// console.log(isLegalAge);
+// console.log(isLegalAge.toString());
 
 
+
+
+//Sukurk variable 'milkPrice'. Su JS patikrink ir informuok vartotoją alert() ar jam reikės centų, ar nereikės (t.y. ar skaičius sveikas).
+//Pakoreguok pirmą pratimą, kad alert taip pat ir išmestų kainą - su dviem skaičias po kablelio (t.y. 3.00 Eur).
+
+
+
+// let milkPrice = 5.4444;
+
+// if (Number.isInteger(milkPrice)) {
+//   alert(`nereikes centu, kaina: ${milkPrice.toFixed(2)}`);
+// } else {
+//   alert(`reikes centu ${milkPrice.toFixed(2)}`);
+// }
+
+//Sukurk programą degalinei - bus du input laukeliai (kuriame su HTML): viename įvedame kainą su trim skaičias po kablelio,
+// antrame - degalų kiekį, su vienu skaičiu po kablelio (HTML naudojame step="0.1" atributą pasakyti kiek skaičių po kablelio vartotojas gali paduoti). 
+//Pavyzdžiui: 1.399Eur x 5.1L. Pateikus duomenis - vartotojui apačioje turi išmesti kainą h1 laukelyje (sukuriame su JS), su dviem skaičiais po kablelio (pvz. 7.13 Eur).
+///daryta su pavyzdziu
+
+// document.querySelector("form").addEventListener("submit", e =>{
+//   e.preventDefault();
+//   const price = Number(document.getElementById("price").value);
+//   const quant = Number(document.getElementById("quant").value);
+//   const total = price * quant;
+//   const priceDisplay = document.createElement("h1");
+//   priceDisplay.textContent = total.toFixed(2);
+//   document.body.append(priceDisplay);
+// });
+
+
+
+
+//Susikurkite konstruktorių car, kuris priims brand, model, 
+//engine ir turės metodą 'turnOn' - kuris alertins 'vrooom'. Sukurkite du objektus ir patikrinkite ar veikia.
+//Pakoreguokite šį konstruktorių ir pridėkite papildomą property 'basePrice' ir metodą 'getPrice'. 
+//basePrice propertį įrašys sukuriant objektą, tačiau getPric priklausimai nuo variklio išmes kokia yra galutinė kaina. 
+//Jei variklis 'electric' - kaina bus +10,000; jei 'diesel' +5,000; jei 'petrol' - kaina tokia kokia ir basePrice.
+
+//veikia
+
+
+
+// function Car (b, m, e, bp) {
+//   this.brand = b;
+//   this.model = m;
+//   this.engine = e;
+//   this.basePrice = bp;
+//   this.turnOn = function () {
+//     alert(`vrooom!`);
+//   };
+//   this.getPrice = function() {
+//     if (this.engine === 'electric'){
+//       return this.basePrice + 10000;
+//     } else if (this.engine === 'diesel'){
+//       return this.basePrice + 5000;
+//     } else {
+//       return this.basePrice
+//     }
+//   };
+// };
+// const Reno = new Car("renault", "scenic", "petrol", 5700);
+// console.log(Reno.getPrice());
+
+// const bmw = new Car("bmw", "o6", "diesel", 6000);
+// console.log(bmw.getPrice());
+
+// const audi = new Car("audi", "627", "electric", 3000);
+// console.log(audi.getPrice());
