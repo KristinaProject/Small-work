@@ -1,0 +1,18 @@
+  = priskiria
+  === palyginimui
+
+  console.lod()  - isves teksta ka parasai 
+
+  boolean - true - false apbrezia
+
+  const obj = { a: 'bananas', b : 'morka'}
+
+  obj.a iskviecia is vidaus objektas, funkcija irgi obj
+
+  null - kai nera duomenu
+  undefiend kai nepriskirta
+
+  const nekinta
+  let kintamas
+
+  
