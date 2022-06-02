@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>uzduotis 3</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flexstyle.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400
       ;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900
@@ -14,9 +15,24 @@
     />
   </head>
   <body>
+    <header>
+      <div class="logo__coontainer">
+        <img class="logo" src="images/logo.png" alt="logo" />
+      </div>
+      <div class="nav__bar">
+        <a class="nav__bar-info" href="#">Properties</a>
+        <a class="nav__bar-info" href="#">How it works</a>
+        <a class="nav__bar-info" href="#">FAQ</a>
+        <a class="nav__bar-button" href="#">Request Access</a>
+      </div>
+      <div class="menu__img-container">
+        <img class="menu__img" src="images/menu.png" alt="menu" />
+      </div>
+    </header>
+
     <main>
       <img class="house" src="/06.01/uzduotis/images/image.jpeg" alt="house" />
-      <h1>Villa Santa Clara Golf</h1>
+      <h1 class="villa">Villa Santa Clara Golf</h1>
       <div class="location">
         <img
           src="/06.01/uzduotis/images/location_pin.svg"
@@ -188,6 +204,154 @@
           </div>
         </div>
       </div>
+      <hr />
     </main>
+
+    <div class="wrapper">
+      <div class="flex__container">
+        <div class="text__container">
+          <h1 class="benefits">Benefits You'll Get</h1>
+          <h4>Duis aute irure dolor in reprehenderit in voluptate</h4>
+        </div>
+        <div class="cards">
+          <div class="card__container-column grown">
+            <div class="card__container-small image1"><div></div></div>
+          </div>
+          <div class="card__container-column">
+            <div class="card__container-small pad">
+              <img
+                class="item"
+                src="images/imagesflex/verify 1.png"
+                alt="verify"
+              />
+              <h3>Pre-vetted properties</h3>
+              <p>
+                we do the hard workand save you 6-12mnths finding the right
+                property
+              </p>
+            </div>
+            <div class="card__container-small pad">
+              <img
+                class="item"
+                src="images/imagesflex/secure 1.png"
+                alt="secure"
+              />
+              <h3>Fully managed</h3>
+              <p>Enjoy your stay without worrying about property care</p>
+            </div>
+          </div>
+          <div class="card__container-column">
+            <div class="card__container-small image2"><div></div></div>
+            <div class="card__container-small pad">
+              <img
+                class="item"
+                src="images/imagesflex/dollar-sign 1.png"
+                alt="dollar"
+              />
+              <h3>Optimized returns</h3>
+              <p>
+                pay for what you own, getrental returns and capital growth for
+                your share too.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="polygon__container">
+      <div class="polygon__container-img">
+        <img
+          class="polygon__container-img-img"
+          src="images/polygon.png"
+          alt="img"
+        />
+      </div>
+      <div class="form__container">
+        <form action="#" method="get">
+          <div class="form__title">Excepteur sint occaecat cupidatat non</div>
+          <input type="text" class="ivestis" placeholder="Your Name" />
+          <input type="email" class="ivestis" placeholder="Your Email" />
+          <input type="number" class="ivestis" placeholder="Your Mobile" />
+          <input type="button" value="Register" class="register__button" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__section">
+        <div class="footer__section-left">
+          <div class="footer__logo-container">
+            <img
+              class="footer__logo-img"
+              src="images/4uzduotiesimg/logo.png"
+              alt="logo"
+            />
+          </div>
+          <div class="footer__text">
+            Sed arcu non odio euismod lacinia at quis risus sed. Congue nisi
+            vitae suscipit tellus mauris a diam maecenas sed.
+          </div>
+          <div class="footer__email">
+            <img
+              class="email"
+              src="images/4uzduotiesimg/email.svg"
+              alt="email"
+            />
+            <div class="footer__email-text">hello@owneroo.com</div>
+          </div>
+        </div>
+        <div class="footer__section-right">
+          <div class="footer__section-right-quick">
+            <div class="footer__quick-title">Quick links</div>
+            <div class="footer__quick-links">
+              <a class="quick-links" href="#">Properties</a>
+              <a class="quick-links" href="#">How it works</a>
+              <a class="quick-links" href="#">FAQ</a>
+              <a class="quick-links" href="#">Contact us</a>
+            </div>
+          </div>
+          <div class="footer__section-right-help">
+            <div class="footer__quick-title">Help & Support</div>
+            <div class="footer__quick-links">
+              <a class="quick-links" href="#">Terms and Condition</a>
+              <a class="quick-links" href="#">Privacy Policy</a>
+              <a class="quick-links" href="#">Coockies Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__section">
+        <div class="footer__section-social">
+          <a href="#"
+            ><img
+              class="social-media"
+              src="images/4uzduotiesimg/facebook.svg"
+              alt="fb"
+          /></a>
+          <a href="#"
+            ><img
+              class="social-media"
+              src="images/4uzduotiesimg/twitter.svg"
+              alt="twitter"
+          /></a>
+          <a href="#"
+            ><img
+              class="social-media"
+              src="images/4uzduotiesimg/linked_in.svg"
+              alt="linked_in"
+          /></a>
+          <a href="#"
+            ><img
+              class="social-media"
+              src="images/4uzduotiesimg/instagram.svg"
+              alt="in"
+          /></a>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2022 Owneroo.Com | All Rights Reserved.
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
