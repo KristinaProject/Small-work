@@ -58,7 +58,7 @@
 
 
 .myColor {
-  background-color: rgb(240, 126, 143);
+  background-color: rgb(240, 126, 143) !important;
 }
 
 .container {
@@ -78,3 +78,23 @@ object-fit: cover;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.accordion {
+  margin: 50px auto;
+  width: 80%;
+
+}
+
+.accordion-button:not(.collapsed) {
+  background: rgb(240, 126, 143) !important;
+  color: rgb(108 57 64) !important;
+}
+
+.accordion-button:not(.collapse) {
+  background: rgb(230, 172, 181);
+}
+
+
+#carouselExampleIndicators {
+  width: 50%;
+  margin: 0 auto;
+}
