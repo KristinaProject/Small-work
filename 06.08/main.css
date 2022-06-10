@@ -1,0 +1,140 @@
+.main__section,
+.main__top {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__top {
+  margin-top: 40px;
+}
+
+.main__top-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 28px;
+}
+
+.main__top-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.main__top-selection-item {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 6px 15px;
+  background-color: white;
+}
+
+.all-blue {
+  color: white;
+  background-color: #2f9ff8;
+}
+
+.item-dots-container {
+  background: none!important;
+  box-shadow: none !important;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  flex-basis: 40%;
+  flex-grow: 1;
+  gap: 20px;
+  height: 100%;
+}
+
+.card__content-title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.card__content-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+
+.card__content-links,
+.links-left,
+.links-right,
+.links-right-share,
+.links-right-read {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links-left,
+.links-right {
+  width: 50%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.links-left {
+  opacity: 0.4;
+}
+
+.links-right{
+  color: #0768b5;
+  
+}
+.links-share {
+  margin-right: 10px;
+}
+
+.links-right-share {
+  margin-right: 25px;
+}
+
+.main__top-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.main__top-card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.card__content-small {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.card__content-small-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-left-theme, 
+.links-middot {
+  margin-right: 10px;
+}

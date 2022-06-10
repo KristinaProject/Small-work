@@ -1,0 +1,401 @@
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgba(244, 249, 248, 1);
+}
+
+.all {
+  max-width: 1440px;
+  width: 100%;
+  max-height: 1938px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.header__logo,
+.header__midsection,
+.profile__section, 
+.header__midsection-button,
+.nav__container-content,
+.nav__container-content-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__logo-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0768B5;
+  margin-left: 15px;
+}
+
+.header__logo, 
+nav {
+  max-width: 260px;
+  width: 100%;
+}
+
+.profile__section,
+section {
+  max-width: 285px;
+  width: 100%;
+}
+
+.profile__section {
+  justify-content: flex-end;
+}
+
+.user-img {
+  margin-right: 10px;
+}
+
+.profile__section-content {
+  margin-right: 35px;
+}
+
+.header__midsection {
+  min-width: 770px;
+}
+
+.header__midsection-searchbar {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#search {
+  width: 100%;
+  padding: 14px;
+  background-color:  rgba(47, 159, 248, 0.04);
+  border-radius: 14px;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.search-icon {
+  margin-left: -30px;
+}
+
+.header__midsection-button {
+  flex: 1;
+  margin-left: 20px;
+  padding: 14px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 14px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+  gap: 45px;
+}
+
+.main__section {
+  min-width: 770px;
+  width: calc(100% - 260px - 285px);
+  flex: 1;
+}
+
+nav, 
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  flex: 1;
+  height: 900px;
+  box-sizing: border-box;
+  padding: 16px;
+  align-items: center;
+
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.nav__container-content {
+  width: 100%;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+
+.nav__container-content-dot {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.dot {
+  display: none;
+}
+
+.first {
+  display: unset !important;
+}
+
+.dot-first {
+  margin-right: 5px !important;
+
+}
+
+.nav-conten-image {
+  margin: 0 20px;
+}
+
+.first-container {
+  background-color: rgba(47, 159, 248, 0.1);
+  color: rgba(47, 159, 248, 1);
+  border-radius: 0px 37px 37px 0px;
+}
+
+.nav-content-text,
+.nav__mini-top-content,
+.nav__mini-bottom-button,
+.nav-mini-price-m, 
+.weather-location-content,
+.temperature-left-forecast,
+.writting-title,
+.bytes-top-title,
+.section__newsletter-title, #email,
+.section__newsletter-button,
+.wrriting-bottom-button {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+ 
+.top{
+  font-weight: 700 !important;
+}
+hr {
+  width: 100%;
+}
+
+.nav__mini {
+  background-color: rgba(47, 159, 248, 1);
+  border-radius: 4px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.nav__mini-top, 
+.nav__mini-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav__mini-top {
+  margin-bottom: 13px;
+}
+
+.nav-mini-price {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.nav__mini-bottom-button {
+  background-color: #0768B5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 27px;
+}
+
+section {
+  flex: 1;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.section__weather,
+.section__writting,
+.section__bytes,
+.section__newsletter {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+}
+
+.section__weather-location,
+.section__weather-temperature,
+.section__weather-metric,
+.section__writting-top, 
+.section__bytes-top, 
+.bytes-top-left,
+.section__writting-bottom,
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.section__weather-location,
+.section__weather-temperature {
+  justify-content: space-between;
+}
+
+.celsius, .farenheit,
+.writting-bottom-content,
+.section__bytes-paragraph {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.temperature-left-numbers {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+
+}
+
+.farenheit {
+  color: #072D4B;
+  opacity: 0.3;
+  margin-left: 23px;
+}
+
+.section__bytes-top,
+.section__writting-bottom {
+  justify-content: space-between;
+}
+
+.section-img {
+  margin-right: 13px;
+}
+
+.writting-bottom-content,
+.section__bytes-paragraph {
+  opacity: 0.6;
+}
+
+.section__bytes-paragraph {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.writting-bottom-content {
+  line-height: 18px;
+  flex-basis: 50%;
+}
+
+.writting-bottom-button {
+  flex-basis: 50%;
+  border: 0.2px solid #2f9ff8;
+  border-radius: 4px;
+  color: rgba(45, 159, 248, 1);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+.section__writting-top {
+  margin-bottom: 10px;
+}
+
+.section__writting-bottom {
+  gap: 25px;
+}
+
+.section__bytes-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__newsletter-title {
+  margin-bottom: 12px;
+}
+
+#email {
+  background-color: #F4F9F8;
+  border: 0.1px solid #566b7a;
+  border-radius: 4px;
+  padding: 14px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+}
+
+.section__newsletter-button {
+  background-color: #2f9ff8;
+  color: white;
+  padding: 11px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.footer__hr, 
+footer {
+  min-width: 770px;
+  width: 100%;
+}
+
+.footer__hr {
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+
+footer {  
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 23px 0 29px 0;
+}
+
+.footer__a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer__left, 
+.footer__right {
+  opacity: 0.4;
+  font-size: 12px;
+  line-height: 22px;
+}
