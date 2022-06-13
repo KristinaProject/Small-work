@@ -82,6 +82,8 @@ main {
   width: 100%;
   flex-basis: 30%;
   padding: 40px;
+  background-color: white;
+  z-index: 1;
 }
 
 .pricing-title {
@@ -189,5 +191,8 @@ main {
 }
 
 .shadow {
-  
+  position: relative;
+  bottom: 50px;
+  right: 100px;
+  z-index: 0;
 }
